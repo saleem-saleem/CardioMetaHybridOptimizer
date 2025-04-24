@@ -15,8 +15,6 @@ CardioMetaHybridOptimizer (CMHO) is a multiphase hybrid algorithm for feature se
 
 
 <p><b> Applications </b></p>
-
-
 <li> CMHO is designed to enhance the accuracy of CVD diagnosis by selecting the most relevant clinical and lifestyle features. It supports early detection and risk classification to improve patient outcomes.</li>
 
 <li>It can be applied to other health domains like diabetes, cancer, and Alzheimer’s disease. CMHO efficiently reduces high-dimensional data to essential variables, improving model performance.</li>

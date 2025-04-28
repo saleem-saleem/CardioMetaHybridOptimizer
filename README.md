@@ -54,7 +54,19 @@ Fitness improvements are continuously tracked.If the best solution stagnates or 
 Final Output
 The best feature subset, along with classification metrics (accuracy, recall, precision, F1-score), is reported.
 
+<br><p><b>How to Run</br></p></b>
 
+Clone the Repository
+
+Install Dependencies
+
+Ensure Dataset is Available
+
+Run Scripts Individually
+
+Run the Full Pipeline (Automates All Steps)
+
+Run Jupyter Notebooks for Analysis
 
 
 

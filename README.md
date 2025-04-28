@@ -38,6 +38,27 @@ CardioMetaHybridOptimizer (CMHO) is a multiphase hybrid algorithm for feature se
 
 <br><p><b>Workflow of CMHO (CardioMetaHybridOptimizer)</br></p></b>
 
+Initialization
+A population of candidate feature subsets is randomly generated as binary vectors. Each solution is evaluated using a fitness function based on classification performance (e.g., accuracy, F1-score).
+
+Global Exploration (Lemur Optimizer - LO)
+The population undergoes wide exploration using random leaping behavior. This phase ensures diverse coverage of the feature space to avoid premature convergence.
+
+Intermediate Refinement (Marine Predators Algorithm - MPA)
+High-potential solutions are adaptively refined based on cooperative hunting behavior.The search space is narrowed around the most promising feature subsets.
+
+Focused Exploitation (Manta Ray Foraging Optimization - MRFO)
+Solutions are fine-tuned using somersault foraging strategies.This phase performs intensive local exploitation to find optimal feature subsets.
+
+Diversity Enhancement (Dynamic Mutation + Iterative Local Search - ILS)
+If no improvement is observed, poorly performing solutions undergo fitness-ranked mutations.ILS explores neighborhoods around top solutions to recover from stagnation and enhance convergence.
+
+Convergence Monitoring
+Fitness improvements are continuously tracked.If the best solution stagnates or the maximum iterations are reached, the algorithm terminates.
+
+Final Output
+The best feature subset, along with classification metrics (accuracy, recall, precision, F1-score), is reported.
+
 
 
 
